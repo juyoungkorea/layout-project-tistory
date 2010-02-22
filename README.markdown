@@ -1,9 +1,9 @@
 # Overview
 
-´ÙÀ½ Æ¼½ºÅä¸®¿¡ Àû¿ëÇÑ Layout ProjectÀÔ´Ï´Ù. ÀÚÀ¯·Ó°Ô ¼öÁ¤ÀÌ °¡´ÉÇÏ¸ç, ÀúÀÛ±Ç Ç¥½ÃÇÏ¿¡ Àç¹èÆ÷ °¡´ÉÇÕ´Ï´Ù. skin.html¿¡¼­ designed by minordev´Â »èÁ¦ÇÏ¼Åµµ ÁÁ½À´Ï´Ù.
+ë‹¤ìŒ í‹°ìŠ¤í† ë¦¬ì— ì ìš©í•œ Layout Projectì…ë‹ˆë‹¤. ììœ ë¡­ê²Œ ìˆ˜ì •ì´ ê°€ëŠ¥í•˜ë©°, ì €ì‘ê¶Œ í‘œì‹œí•˜ì— ì¬ë°°í¬ ê°€ëŠ¥í•©ë‹ˆë‹¤. skin.htmlì—ì„œ designed by minordevëŠ” ì‚­ì œí•˜ì…”ë„ ì¢‹ìŠµë‹ˆë‹¤.
 # ready... test
 
-ÄÁÅÙÃ÷ 820px, ¾ËÆÄ 580px, º£Å¸ 240px, ¿£Æ®¸® 560px·Î °¡·Î »çÀÌÁî°¡ ÃÖÀûÈ¸µÇ¾î ÀÖ½À´Ï´Ù. body Å¬·¡½º ¼±ÅÃÀÚ·Î ·¹ÀÌ¾Æ¿ô º¯°æ°¡´ÉÇÕ´Ï´Ù. Layout ¼±ÅÃÀÚ´Â layout-left, layout-center, layout-right¸¦ ¼±ÅÃÇÒ ¼ö ÀÖ½À´Ï´Ù. column Å¬·¡½º ¼±ÅÃÀÚ´Â column-left, column-rightÀÌ¸ç alpha, betaÀÇ À§Ä¡°¡ º¯°æµË´Ï´Ù.
+ì»¨í…ì¸  820px, ì•ŒíŒŒ 580px, ë² íƒ€ 240px, ì—”íŠ¸ë¦¬ 560pxë¡œ ê°€ë¡œ ì‚¬ì´ì¦ˆê°€ ìµœì íšŒë˜ì–´ ìˆìŠµë‹ˆë‹¤. body í´ë˜ìŠ¤ ì„ íƒìë¡œ ë ˆì´ì•„ì›ƒ ë³€ê²½ê°€ëŠ¥í•©ë‹ˆë‹¤. Layout ì„ íƒìëŠ” layout-left, layout-center, layout-rightë¥¼ ì„ íƒí•  ìˆ˜ ìˆìŠµë‹ˆë‹¤. column í´ë˜ìŠ¤ ì„ íƒìëŠ” column-left, column-rightì´ë©° alpha, betaì˜ ìœ„ì¹˜ê°€ ë³€ê²½ë©ë‹ˆë‹¤.
 
 # License and Copyright
 
