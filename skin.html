@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" />
+<link rel="stylesheet" media="screen" type="text/css" href="./style.css" />
+<link rel="shortcut icon" href="[##_blog_link_##]favicon.ico" />
+<title>[##_title_##] :: [##_page_title_##]</title>
+</head>
+
+<body class="layout-left column-right">
+<s_t3>
+ 
+<!-- container -->
+    <div id="container">
+    <div id="container-inner">
+
+<!-- header -->
+    <div id="header">
+    <div id="header-inner">
+
+<!-- header-alpah -->
+    <div id="header-alpha">
+    <div id="header-alpha-inner">
+        <p>[##_desc_##]</p>
+    </div>
+    </div>
+
+<!-- header-beta -->
+    <div id="header-beta">
+    <div id="header-beta-inner">
+        <h1><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+    </div>
+    </div>          
+
+    </div>
+    </div>
+
+<!-- content -->
+    <div id="content">
+    <div id="content-inner">
+
+<!-- content alpha -->
+    <div id="alpha">
+    <div id="alpha-inner">
+
+    <s_list>
+<!-- search -->
+    <div class="search-list">
+        <h3>'[##_list_conform_##]'에 해당되는 글 [##_list_count_##]건</h3>
+                <ol>
+    <s_list_rep>
+                        <li>
+                              <span class="date">[##_list_rep_regdate_##]</span>
+                              <a href="[##_list_rep_link_##]">[##_list_rep_title_##]</a>
+                              <span class="cnt">[##_list_rep_rp_cnt_##]</span>
+                        </li>
+    </s_list_rep>
+                </ol>
+    </div>
+    </s_list>
+
+    <s_rplist>
+    <div class="searchRplist">
+        <h3>'[##_rplist_conform_##]'에 해당되는 댓글 [##_rplist_count_##]건</h3>
+                <ol>
+    <s_rplist_rep>
+                       <li>
+                             <span class="date">[##_rplist_rep_regdate_##]</span>
+                             <a href="[##_rplist_rep_link_##]">[##_rplist_rep_body_##]</a>
+                             <span class="cnt">[##_rplist_rep_rp_cnt_##]</span>
+                             <span class="name">[##_rplist_rep_name_##]</span>
+                      </li>
+    </s_rplist_rep>
+                </ol>
+    </div>
+    </s_rplist>
+
+    <s_local>
+<!-- local -->
+    <div class="entry"> 
+    <div class="localog">
+        <h3>Localog</h3>
+    <s_local_spot_rep>
+        <div class="spot" style="margin-left: [##_local_spot_depth_##]px">[##_local_spot_##]</div>
+    </s_local_spot_rep>
+    <s_local_info_rep>
+        <div class="info" style="margin-left: [##_local_info_depth_##]px"><a href="[##_local_info_link_##]">[##_local_info_title_##]</a></div>
+    </s_local_info_rep>
+    </div>
+    </div>
+    </s_local>
+
+    <s_tag>
+<!-- taglog -->
+    <div class="entry">
+    <div class="taglog">
+        <h3>Tags</h3>
+               <ul>
+    <s_tag_rep>
+                      <li>
+                            <a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a>
+                      </li>
+    </s_tag_rep>
+               </ul>
+    </div>
+    </div>
+    </s_tag>
+
+    <s_media>
+<!-- media -->
+    <div class="entry">
+    <div class="medialog">
+        <h3>Medialog</h3>
+               [##_media_content_##]
+    </div>
+    </div>
+    </s_media>
+
+    <s_guest>
+<!-- guestbook -->
+    <div class="entry">
+    <div class="comment">
+        <h3>Guestbook</h3>
+    <s_guest_input_form>
+                <div class="comments-form">
+    <s_guest_member>
+    <s_guest_form>
+                          <p><input type="text" class="field" name="[##_guest_input_name_##]" value="[##_guest_name_##]" /> <label for="name"> : 이름 </label></p>
+                          <p><input type="password" class="field" name="[##_guest_input_password_##]" value="[##_guest_password_##]" /> <label for="password"> : 패스워드 </label></p>
+                          <p><input type="text" class="field" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" /> <label for="homepage"> : 홈페이지 </label></p>
+    </s_guest_form>
+    </s_guest_member>
+                          <p><textarea name="[##_guest_textarea_body_##]" cols="50" rows="6"></textarea></p>
+                          <p><input type="submit"  value="submit" onclick="[##_guest_onclick_submit_##]"/></p>
+                </div>
+    </s_guest_input_form>
+
+    <s_guest_container>
+                                <ol>
+    <s_guest_rep>
+                                         <li id='[##_guest_rep_id_##]'>
+                                             <div class="[##_guest_rep_class_##]">
+                                                   <span class="name">[##_guest_rep_name_##]</span>
+                                                   <span class="date"> [##_guest_rep_date_##]</span>
+                                                   <span class="control">
+                                                   <a href="#" onclick="[##_guest_rep_onclick_delete_##]">MODIFY/DELETE</a>
+                                                   <a href="#" onclick="[##_guest_rep_onclick_reply_##]">REPLY</a>
+                                                   </span>
+                                                       <p>[##_guest_rep_desc_##]</p>
+                                             </div>
+
+                                             <div class="reply">
+    <s_guest_reply_container>
+                                                 <ul>
+    <s_guest_reply_rep>
+                                                     <li id='[##_guest_rep_id_##]'>
+                                                         <div class="[##_guest_rep_class_##]">
+                                                             <span class="name">[##_guest_rep_name_##]</span>
+                                                             <span class="date"> [##_guest_rep_date_##]</span>
+                                                             <span class="control">
+                                                             <a href="#" onclick="[##_guest_rep_onclick_delete_##]">MODIFY/DELETE</a>
+                                                             </span>
+                                                             <p>[##_guest_rep_desc_##]</p>
+                                                         </div>
+                                                     </li>
+    </s_guest_reply_rep>
+                                                 </ul>
+    </s_guest_reply_container> 
+                                             </div><!-- reply -->
+                                         </li>
+    </s_guest_rep>
+                                </ol>
+    </s_guest_container>
+    </div>
+    </div>
+    </s_guest>
+
+    <s_notice_rep>
+<!-- notice -->
+    <div class="entry">	
+    <div class="entry-title">
+         <h2><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h2>
+                <span class="date">[##_notice_rep_date_##]</span>
+    </div>
+
+    <div class="article">
+        [##_notice_rep_desc_##]
+    </div>
+    </div>
+    </s_notice_rep>
+
+    <s_article_protected>
+<!-- protected entry -->
+    <div class="entry">	
+    <div class="entry-title">
+        <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+                <span class="date">[##_article_rep_date_##]</span>
+    </div>
+                <p>보호되어 있는 글입니다. 내용을 보시려면 비밀번호를 입력하세요.</p>
+                <p><label for="password">비밀번호 ::</label>
+                      <input type="password" maxlength="16" id="password" name="[##_article_password_##]" value="" onkeydown="if (event.keyCode == 13)[##_article_dissolve_##]" />
+                      <input type="button" class="submit" value="submit" onclick="[##_article_dissolve_##]" /></p>
+    </div>
+    </s_article_protected>
+
+    <s_article_rep>
+<!-- article -->
+    <div class="entry">
+    <div class="entry-title">
+        <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+                <span class="date">[##_article_rep_date_##]</span>
+    <s_tag_label>
+                <span class="tag">Tags &raquo; [##_tag_label_rep_##]</span>
+    </s_tag_label>
+    </div>
+
+    <div class="article">
+        [##_article_rep_desc_##]
+    </div>
+
+    <div class="actionTrail">
+        <a href="#tb" onclick="[##_article_rep_tb_link_##]"> T<span class="cnt"> [##_article_rep_tb_cnt_##]</span></a> : <a href="#rp" onclick="[##_article_rep_rp_link_##]"> C <span class="cnt">[##_article_rep_rp_cnt_##]</span></a>
+    </div>
+
+    <s_tb>
+<!-- trackback -->
+    <div class="trackback">
+        <p>Trackback &raquo; [##_tb_address_##]</p>
+    <s_tb_container>
+              <ol>
+    <s_tb_rep>
+                     <li id="[##_tb_rep_id_##]">
+                         <p>Subject:<span class="name"><a href="[##_tb_rep_url_##]" onclick="window.open(this.href); return false" rel="external nofollow">[##_tb_rep_title_##]</a><span></p>
+                               <span class="from">Tracked from <span class="name">[##_tb_rep_site_##]</span></span>
+                               <span class="date">[##_tb_rep_date_##]</span>
+                               <a href="#void" onclick="[##_tb_rep_onclick_delete_##]; return false" class="delete">&nbsp;<span>delete</span></a>
+                               <p>[##_tb_rep_desc_##]</p>
+                     </li>
+    </s_tb_rep>
+              </ol>
+    </s_tb_container>
+    </div>
+    </s_tb>
+
+    <s_rp>
+<!-- commemt -->
+    <div class="comment">
+    <s_rp_container>
+        <ol>
+    <s_rp_rep>
+               <li id="[##_rp_rep_id_##]">
+                   <div class="[##_rp_rep_class_##]">
+                       <span class="name">[##_rp_rep_name_##]</span>
+                       <span class="date"> [##_rp_rep_date_##]</span>
+                       <span class="control">
+                       <a href="[##_rp_rep_link_##]" class="address">&nbsp;<span>address</span></a>
+                       <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">&nbsp;<span>modify / delete</span></a>
+                       <a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write">&nbsp;<span>reply</span></a>
+                       </span>
+                       <p>[##_rp_rep_desc_##]</p>
+                   </div>
+
+                   <div class="reply">
+    <s_rp2_container>
+                       <ul>
+    <s_rp2_rep>
+                           <li id="[##_rp_rep_id_##]">
+                               <div class="[##_rp_rep_class_##]">
+                                   <span class="name">[##_rp_rep_name_##]</span>
+                                   <span class="date"> [##_rp_rep_date_##]</span>
+                                   <span class="control">
+                                   <a href="[##_rp_rep_link_##]" class="address">&nbsp;<span>address</span></a>
+                                   <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">&nbsp;<span>modify / delete</span></a>
+                                   </span>
+                                   <p>[##_rp_rep_desc_##]</p>
+                               </div>
+                           </li>
+    </s_rp2_rep>
+                       </ul>
+    </s_rp2_container>
+                   </div><!-- reply -->
+               </li>
+    </s_rp_rep>
+        </ol>
+    </s_rp_container>
+
+    <s_rp_input_form>
+    <div class="comments-form">
+    <s_rp_member>
+    <s_rp_guest>
+        <p><input id="[##_rp_input_name_##]_[##_article_rep_id_##]" class="field" name="[##_rp_input_name_##]" value="[##_guest_name_##]" />
+        <label for="[##_rp_input_name_##]_[##_article_rep_id_##]"> : name </label></p>
+        <p><input type="password" maxlength="8" class="field" name="[##_rp_input_password_##]" value="" />
+        <label for="[##_rp_input_password_##]_[##_article_rep_id_##]"> : password </label></p>
+        <p><input id="[##_rp_input_homepage_##]_[##_article_rep_id_##]" class="field" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]"/>
+        <label for="[##_rp_input_homepage_##]_[##_article_rep_id_##]"> : homepage </label>
+              <input type="checkbox" id="[##_rp_input_is_secret_##]_[##_article_rep_id_##]" name="[##_rp_input_is_secret_##]" value="1" />
+        <label for="[##_rp_input_is_secret_##]_[##_article_rep_id_##]"> : secret </label></p>
+    </s_rp_guest>
+    </s_rp_member>
+              <p><textarea name="[##_rp_input_comment_##]" title="Write a comment..." rows="10" cols="50"></textarea></p>
+              <p><input type="submit" accesskey="s" value="submit" onclick="[##_rp_onclick_submit_##]" /></p>
+    </div>
+    </s_rp_input_form>
+    </s_rp>
+    </div>
+    </s_article_rep>
+
+    <s_paging>
+<!-- paging -->
+    <div class="paging">
+        <a [##_prev_page_##] class="[##_no_more_prev_##]">&laquo; PREV </a>
+        <span class="numbox">
+    <s_paging_rep>
+        <a [##_paging_rep_link_##] class="num">[##_paging_rep_link_num_##]</a>
+    </s_paging_rep>
+        </span>
+        <a [##_next_page_##] class="[##_no_more_next_##]">NEXT &raquo;</a>
+    </div>
+    </s_paging>
+
+    </div><!-- alpha-inner -->
+    </div><!-- alpha  -->
+
+<!-- content-beta -->
+    <div id="beta">
+    <div id="beta-inner">
+
+    <s_sidebar>      
+    <s_sidebar_element>
+
+    <div class="search">
+    <s_search>
+<!-- Search -->
+        <input type="text"  class="search-query" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }"/>
+        <input value="Search"  type="submit" class="submit" onclick="[##_search_onclick_submit_##]" />
+    </s_search>
+    </div>
+    </s_sidebar_element>
+
+    <s_sidebar_element>
+<!-- Menu -->
+    <div class="menu">
+        [##_category_list_##]
+        <ul>	
+               <li><a href="[##_guestbook_link_##]">Guest</a></li>
+        </ul>
+    </div>
+    </s_sidebar_element>
+    </s_sidebar>
+    </div>
+    </div>
+
+    </div><!-- content-inner -->
+    </div><!-- content -->
+ 
+<!-- footer -->
+    <div id="footer">
+    <div id="footer-inner">
+
+    <div id="footer-alpha">
+    <div id="footer-alpha-inner">
+        <ul>
+               <li><a href="[##_localog_link_##]">Local</a> :: </li>
+               <li><a href="[##_taglog_link_##]">Tags</a> :: </li>
+               <li><a href="[##_blog_link_##]media">Media</a> :: </li> 
+               <li><a href="[##_owner_url_##]">admin</a></li>
+        </ul>
+        <ul>
+               <li>Powered by <a href="http://tistory.com">[##_tattertools_name_##]</a> ::</li> 
+               <li>design by <a href="http://minordev.com">minordev</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div id="footer-beta">
+    <div id="footer-beta-inner">
+        <p><a href="[##_blog_link_##]rss">RSS 2.0</a></p>
+    </div>
+    </div>
+
+    </div>
+    </div><!-- footer -->
+
+    </div><!-- container-inner -->
+    </div><!-- container -->
+</s_t3>
+</body>
+</html>
