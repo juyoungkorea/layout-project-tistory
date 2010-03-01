@@ -167,14 +167,12 @@ dfn, em, cite, address
 }
 #header-alpha { 
     width:580px;
-    visibility:hidden;
 }
 #header-beta {
     width:240px; 
 }
 #header-alpha-inner { 
     width:560px;
-    visibility:hidden;
 }
 #header-beta-inner {
     width:220px; 
@@ -339,7 +337,6 @@ dfn, em, cite, address
 }
 .entry-title	{ 
     display:inline;
-    width:620px;
     margin: 10px 0 10px 0;
     padding: 0 0 20px 0;
 }
