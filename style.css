@@ -3,7 +3,7 @@
 /*  
       - layout Project by minordev
  
-      - http://minordev.com/tc/ :: This site will support DAUM TISTORY and TEXTCUBE Core,  Google.
+      - http://minordev.com/project/ :: This project will support DAUM TISTORY and TEXTCUBE Core,  Google.
 */ 
 
 
@@ -168,11 +168,11 @@ dfn, em, cite, address
 #header-alpha { 
     width:580px;
 }
-#header-beta {
-    width:240px; 
-}
 #header-alpha-inner { 
     width:560px;
+}
+#header-beta {
+    width:240px; 
 }
 #header-beta-inner {
     width:220px; 
@@ -185,7 +185,7 @@ dfn, em, cite, address
     margin-right: 10px;
     margin-left: 10px;
 }
-#header-alpha-inner, #header-beta-inner, #header-gamma-inner {
+#header-alpha, #header-beta, #header-gamma {
     position: relative;
 }
 #header-alpha-inner, #header-beta-inner, #header-gamma-inner {
@@ -202,6 +202,7 @@ dfn, em, cite, address
 #header p {
     font-size:8pt;
     color:#ccc;
+    line-height: 1.5em;
 }
 #header-inner h1 a {
     padding:5px;
@@ -533,7 +534,7 @@ dfn, em, cite, address
 /* ---- Paginate ---- */
 
 .paging { 
-    width:620px;
+    width:560px;
     margin:10px auto;
     padding:10px 0px 10px 0px;   
     font-family: verdana;
@@ -579,12 +580,12 @@ dfn, em, cite, address
     width:580px;
     font-size:10px;
 }
+#footer-alpha-inner { 
+    width:560px;
+}
 #footer-beta {
     width:240px; 
     font-size:10px;
-}
-#footer-alpha-inner { 
-    width:560px;
 }
 #footer-beta-inner {
     width:220px; 
@@ -597,19 +598,16 @@ dfn, em, cite, address
     margin-right: 10px;
     margin-left: 10px;
 }
-
-#footer-alpha-inner, #footer-beta-inner, #footer-gamma-inner {
+#footer-alpha, #footer-beta, #footer-gamma {
     position: relative;
 }
 #footer-alpha-inner, #footer-beta-inner, #footer-gamma-inner {
     position: static;
 }
-
 .column-left #footer-alpha, .column-left #footer-beta, .column-left #footer-gamma {
     display: inline;
     float: left;
 }
-
 .column-right #footer-alpha, .column-right #footer-beta, .column-right #footer-gamma {
     display: inline;
     float: right;
@@ -636,7 +634,6 @@ dfn, em, cite, address
 .imageblock {
     margin:5px 0;
     padding:5px;
-    border:1px solid #ddd;
 }
 .dual {
     margin-bottom:5px;
