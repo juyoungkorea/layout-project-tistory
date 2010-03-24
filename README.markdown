@@ -7,4 +7,4 @@
 
 # License and Copyright
 
-Copyleft.
+http://minordev.com/project
