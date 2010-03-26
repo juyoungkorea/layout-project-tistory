@@ -170,6 +170,7 @@ dfn, em, cite, address
 }
 #header-alpha-inner { 
     width:560px;
+    visibility:hidden;
 }
 #header-beta {
     width:240px; 
