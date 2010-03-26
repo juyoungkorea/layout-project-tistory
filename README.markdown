@@ -7,4 +7,4 @@
 
 # License and Copyright
 
-http://minordev.com/project
+GNU General Public License, version 2. http://minordev.com/project
