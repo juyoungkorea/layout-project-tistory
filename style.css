@@ -286,7 +286,7 @@ dfn, em, cite, address
    border-top: 1px dotted #f1f1f1;
 }
 #beta .menu ul li {
-    display:block;  
+    display:inline;  
 }
 #beta .menu ul li a {
     display:block;
