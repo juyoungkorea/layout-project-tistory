@@ -205,7 +205,7 @@ dfn, em, cite, address
 #header-inner h1 a {
     color:#f1f1f1;
     font-size: 1.5em;
-    font-family: "돋음", Arial, Verdana;
+    font-family: 돋움, Arial, Verdana;
     text-align:justify;
     line-height: 1.5em;
 }
@@ -344,7 +344,7 @@ dfn, em, cite, address
     color: #999;  
     font-size: 1.5em;
     font-weight: bold;
-    font-family: "돋음", Arial, Verdana;
+    font-family: 돋움, Arial, Verdana;
     text-align:justify;
 }
 .entry-title h2 a:hover {  
