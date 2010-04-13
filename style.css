@@ -478,6 +478,7 @@ dfn, em, cite, address
 }
 .comment .name img {   
     vertical-align: middle;
+    margin-bottom:3px;
 }
 .comment ol li .name { 
     color:#999; 
