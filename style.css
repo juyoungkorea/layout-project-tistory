@@ -476,6 +476,9 @@ dfn, em, cite, address
     border-left: 1px dotted #ddddd9;
     color: #333;
 }
+.comment .name img {   
+    vertical-align: middle;
+}
 .comment ol li .name { 
     color:#999; 
 }
