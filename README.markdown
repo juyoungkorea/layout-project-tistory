@@ -6,13 +6,6 @@
 
 Layout Project 스킨은 지인의 부탁으로 시작했습니다. 매번 지인의 홈페이지를 만들어주다보면 항상 힘든 부분이 레이아웃입니다. 텍스트큐브든 티스토리든 워드프레스든 어떤 소프트웨어를 사용하든 레이아웃을 자유자재로 쓸 수 있는 것이 목표입니다. XHTML과 CSS를 조금 다를 줄 아신다면 커스터마이징을 좀더 쉽게 할 수 있을 거라 생각합니다. 
           
-# Contact
-
-- Homepage  [http://www.minordev.com](http://www.minordev.com)
-- Project   [http://minordev.tistory.com](http://minordev.tistory.com) 
-- facebook  [facebook group](http://www.facebook.com/minordev#!/group.php?gid=124157610929462&ref=mf)
-- twitter   [@minordev](http://twitter.com/minordev)          
-          
           
 # Usage
 
@@ -23,7 +16,12 @@ Layout Project 스킨은 지인의 부탁으로 시작했습니다. 매번 지�
 컨텐츠 <code>820px</code>, 알파 <code>580px</code>, 베타 <code>240px</code>, 엔트리 <code>560px</code>로 가로 사이즈가 최적회되어 있습니다. body 클래스 선택자로 레이아웃 변경가능합니다. Layout 선택자는 <code>layout-left</code>, <code>layout-center</code>, <code>layout-right</code>를 선택할 수 있습니다. column 클래스 선택자는 <code>column-left</code>, <code>column-right</code>이며 alpha, beta의 위치가 변경됩니다.
 
 
+# Contact
 
+- Homepage  [http://www.minordev.com](http://www.minordev.com)
+- Project   [http://minordev.tistory.com](http://minordev.tistory.com) 
+- facebook  [facebook group](http://www.facebook.com/minordev#!/group.php?gid=124157610929462&ref=mf)
+- twitter   [@minordev](http://twitter.com/minordev)    
 
 # License and Copyright
 
