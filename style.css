@@ -207,7 +207,7 @@ dfn, em, cite, address
 #header-inner h1 a {
     color:#f1f1f1;
     font-size: 1.5em;
-    font-family: 돋움, Arial, Verdana;
+    font-family: "Malgun Gothic", 돋움, Arial, Verdana;
     text-align:justify;
     line-height: 1.5em;
 }
@@ -312,7 +312,7 @@ dfn, em, cite, address
     padding:5px 0 5px 0;
     border-bottom:1px solid #ccc;
     color:#808080;
-    font-family: verdana,Georgia;
+    font-family: "Malgun Gothic", 돋움, verdana,Georgia;
     font-size: 8pt;
     text-align:justify;
     line-height: 1.5em;
@@ -346,7 +346,7 @@ dfn, em, cite, address
     color: #999;  
     font-size: 1.5em;
     font-weight: bold;
-    font-family: 돋움, Arial, Verdana;
+    font-family: "Malgun Gothic", 돋움, Arial, Verdana;
     text-align:justify;
 }
 .entry-title h2 a:hover {  
