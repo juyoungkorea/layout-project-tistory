@@ -20,7 +20,7 @@ Layout Project 스킨은 지인의 부탁으로 시작했습니다. 매번 지�
 * Textcube : FTP 연결 -> skin - blog 폴더에 업로드 -> 스킨 선택 
  
 
-컨텐츠 <820px>, 알파 '580px', 베타 '240px', 엔트리 '560px'로 가로 사이즈가 최적회되어 있습니다. body 클래스 선택자로 레이아웃 변경가능합니다. Layout 선택자는 'layout-left', 'layout-center', 'layout-right'를 선택할 수 있습니다. column 클래스 선택자는 'column-left', 'column-right'이며 alpha, beta의 위치가 변경됩니다.
+컨텐츠 <code>820px</code>, 알파 '580px', 베타 '240px', 엔트리 '560px'로 가로 사이즈가 최적회되어 있습니다. body 클래스 선택자로 레이아웃 변경가능합니다. Layout 선택자는 'layout-left', 'layout-center', 'layout-right'를 선택할 수 있습니다. column 클래스 선택자는 'column-left', 'column-right'이며 alpha, beta의 위치가 변경됩니다.
 
 
 
