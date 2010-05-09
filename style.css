@@ -625,6 +625,11 @@ dfn, em, cite, address
 
 /* ---- Etc ---- */
 
+.admin {
+     clear:both;
+     padding:5px 0;   
+     text-align:left;      
+}
 .cap1 {
     color:#999;
     text-align:center;
