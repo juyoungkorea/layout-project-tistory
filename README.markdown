@@ -20,7 +20,6 @@ Layout Project 스킨은 지인의 부탁으로 시작했습니다. 매번 지�
 
 - Homepage  [http://www.minordev.com](http://www.minordev.com)
 - Project   [http://minordev.tistory.com](http://minordev.tistory.com) 
-- facebook  [facebook group](http://www.facebook.com/minordev#!/group.php?gid=124157610929462&ref=mf)
 - twitter   [@minordev](http://twitter.com/minordev)    
 
 # License and Copyright
